@@ -1,0 +1,62 @@
+<!DOCTYPE html><html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mein Business</title>
+<style>
+body{font-family:Arial, sans-serif;margin:0;background:#f5f7fb;color:#222}
+header{background:#111;color:white;padding:20px}
+nav{display:flex;gap:20px}
+nav a{color:white;text-decoration:none;font-weight:bold}
+.hero{padding:100px 20px;text-align:center;background:linear-gradient(135deg,#4f46e5,#06b6d4);color:white}
+section{padding:60px 20px;max-width:1000px;margin:auto}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:white;padding:25px;border-radius:12px;box-shadow:0 10px 25px rgba(0,0,0,0.08)}
+footer{background:#111;color:white;text-align:center;padding:30px;margin-top:40px}
+input,textarea{width:100%;padding:10px;margin-top:10px;margin-bottom:15px;border-radius:6px;border:1px solid #ccc}
+button{background:#4f46e5;color:white;border:none;padding:12px 18px;border-radius:8px;cursor:pointer}
+button:hover{opacity:0.9}
+</style>
+</head>
+<body><header>
+<h2>Mein Business</h2>
+<nav>
+<a href="#home">Startseite</a>
+<a href="#about">Über mich</a>
+<a href="#services">Was bieten wir an</a>
+<a href="#contact">Kontakt</a>
+</nav>
+</header><div class="hero" id="home">
+<h1>Willkommen bei unserem Business</h1>
+<p>Moderne Lösungen für unsere Kunden</p>
+</div><section id="about">
+<h2>Über mich</h2>
+<p>Hier kannst du dein Unternehmen vorstellen. Erzähle etwas über deine Erfahrung, deine Mission und warum Kunden dir vertrauen können.</p>
+</section><section id="services">
+<h2>Was bieten wir an</h2>
+<div class="cards">
+<div class="card">
+<h3>Service 1</h3>
+<p>Beschreibung deiner Dienstleistung.</p>
+</div>
+<div class="card">
+<h3>Service 2</h3>
+<p>Beschreibung deiner Dienstleistung.</p>
+</div>
+<div class="card">
+<h3>Service 3</h3>
+<p>Beschreibung deiner Dienstleistung.</p>
+</div>
+</div>
+</section><section id="contact">
+<h2>Kontakt</h2>
+<form>
+<input type="text" placeholder="Name" required>
+<input type="email" placeholder="E-Mail" required>
+<textarea rows="5" placeholder="Nachricht"></textarea>
+<button type="submit">Nachricht senden</button>
+</form>
+</section><footer>
+<p>© 2026 Mein Business</p>
+</footer></body>
+</html>
